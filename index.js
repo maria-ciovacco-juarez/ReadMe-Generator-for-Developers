@@ -1,8 +1,8 @@
 // TODO: Include packages needed for this application
-const fs = require("fs");
-const inquirer = require("inquirer");
-const path = require("path");
-const generateMarkdown = require(".utils/generateMarkdown");
+const fs = require('fs');
+const inquirer = require('inquirer');
+const path = require('path');
+const generateMarkdown = require('./generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -53,11 +53,15 @@ function writeFile(fileName, data){
   return fs.writeFileSync(path.join(process.cwd(), fileName), data);
 }
 
-  
 
 
 // TODO: Create a function to initialize app
-function init() { }
+function init() { 
+  inquirer.prompt(questions).then((responses) => {
+    console.log('ReadME has been generated');
+    writeFile('README.md', generateMarkdown({...responses}));
+  })
+}
 
 // Function call to initialize app
 init();
