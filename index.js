@@ -29,7 +29,7 @@ const questions = [
   {
     type: 'input',
     name: 'contribution',
-    messsage: 'Provide information on how other developers can contribute to this project:',
+    message: 'Provide information of all contributors and third-parties here:',
   },
   {
     type: 'input',
@@ -44,12 +44,11 @@ const questions = [
   {
     type: 'input',
     name: 'license',
-    message: 'What type of license?',
-    choices: ['MIT', 'GPL 3.0', 'APACHE 2.0', 'None']
+    message: 'Is your license MIT, GPL 3.0, APACHE 2.0, or None?',
   },
   {
     type: 'input',
-    name: 'run test',
+    name: 'test',
     message: 'What command should the user use to run tests?'
   }
 ];
