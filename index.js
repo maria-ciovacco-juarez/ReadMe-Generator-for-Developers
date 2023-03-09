@@ -19,17 +19,17 @@ const questions = [
   {
     type: 'input',
     name: 'installation',
-    message: 'Installation instructions?',
+    message: 'What are the installation steps?',
   },
   {
     type: 'input',
     name: 'usage',
-    message: ' Project usage?',
+    message: 'Provide any instructions and/or examples of usage for the project here:',
   },
   {
     type: 'input',
     name: 'contribution',
-    messsage: 'Any contribution info?',
+    messsage: 'Provide information on how other developers can contribute to this project:',
   },
   {
     type: 'input',
