@@ -33,7 +33,7 @@ function generateMarkdown(data) {
   ${data.license}
   
   ## Tests
-  ${data.test}
+  ${data.tests}
 `;
 }
 

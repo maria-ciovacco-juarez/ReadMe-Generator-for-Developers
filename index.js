@@ -48,7 +48,7 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'test',
+    name: 'tests',
     message: 'What command should the user use to run tests?'
   }
 ];
