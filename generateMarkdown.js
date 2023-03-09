@@ -11,7 +11,7 @@ function generateMarkdown(data) {
   - [Contribution](#Contribution)
   - [Questions](#Questions)
   - [License](#License)
-  - [Test](#Tests)
+  - [Tests](#Tests)
 
   ## Description
   ${data.description}

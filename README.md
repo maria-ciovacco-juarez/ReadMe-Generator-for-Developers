@@ -8,7 +8,7 @@
   - [Contribution](#Contribution)
   - [Questions](#Questions)
   - [License](#License)
-  - [Tests] (#Tests)
+  - [Tests](#Tests)
 
   ## Description
   This project was created to help the user create an easy-to-read README.md file through the terminal in VS Code.
